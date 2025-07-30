@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Navbar from './Component/Navbar';
 import Home from './Pages/Home';
+import Footer from './Component/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
         <Route
           path="/"
           element={<Home></Home>}
+        ></Route>
+        <Route
+          path="/"
+          element={<Footer></Footer>}
         ></Route>
       </Routes>
     </Router>

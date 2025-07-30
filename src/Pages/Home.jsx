@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import newbanner from '../ImagesAssets/b.jpg';
+import newbanner from '../ImagesAssets/banner10.jpeg';
+import Footer from '../Component/Footer';
 import '../styles/home.css';
 
 function Home() {
@@ -15,6 +16,10 @@ function Home() {
         <Link to="/menu">
           <button>ORDER NOW</button>
         </Link>
+      </div>
+      <div>
+        {' '}
+        <Footer></Footer>
       </div>
     </div>
   );
