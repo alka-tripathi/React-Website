@@ -17,10 +17,6 @@ function Home() {
           <button>ORDER NOW</button>
         </Link>
       </div>
-      <div>
-        {' '}
-        <Footer></Footer>
-      </div>
     </div>
   );
 }

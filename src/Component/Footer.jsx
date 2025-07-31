@@ -14,7 +14,7 @@ export default function Footer() {
         <FacebookIcon></FacebookIcon>
         <LinkedInIcon></LinkedInIcon>
       </div>
-      <a>&copy 2021 cosmetic.com</a>
+      <p>&copy 2021 cosmetic.com</p>
     </div>
   );
 }
